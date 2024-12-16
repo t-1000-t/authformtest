@@ -21,6 +21,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'react/forbid-prop-types': 'off',
     quotes: ['error', 'single', { avoidEscape: true }],
     semi: ['error', 'never'],
     'max-len': ['error', { code: 120 }],
@@ -41,6 +42,7 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.test.js', '**/*.stories.js'] }],
   },
   settings: {
     react: {

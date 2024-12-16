@@ -1,10 +1,10 @@
 import React, { useCallback, useEffect, useState } from 'react'
-import PropTypes from 'prop-types'
-import useAuthStore from '../store/authStore'
-import setAxiosInterceptors from '../utils/axiosInterceptors'
-import useAuthHandler from '../hooks/useAuthHandler'
-import LoadingScreen from './LoadingScreen'
+import useAuthStore from '../../store/authStore'
+import setAxiosInterceptors from '../../utils/axiosInterceptors'
+import useAuthHandler from '../../hooks/useAuthHandler'
+import LoadingScreen from '../reusableComponents/LoadingScreen'
 
+// eslint-disable-next-line react/prop-types
 const Auth = ({ children }) => {
   const [isLoading, setLoading] = useState(true)
   const { handleAuthentication } = useAuthHandler()
@@ -43,7 +43,3 @@ const Auth = ({ children }) => {
 }
 
 export default Auth
-
-Auth.propTypes = {
-  children: PropTypes.node.isRequired,
-}

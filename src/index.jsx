@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 import process from 'process'
 import App from './App'
+import { SocketContextProvider } from './context/socketContextProvider'
 
 window.process = process
 
@@ -22,7 +23,9 @@ root.render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
       <BrowserRouter>
-        <App />
+        <SocketContextProvider>
+          <App />
+        </SocketContextProvider>
       </BrowserRouter>
     </ChakraProvider>
   </React.StrictMode>,
