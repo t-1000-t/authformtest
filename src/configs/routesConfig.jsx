@@ -20,6 +20,14 @@ const routesConfig = [
     component: lazy(() => import('../components/Login')),
     id: 'id_UniqX1',
   },
+  {
+    exact: true,
+    layout: GuestLayout,
+    path: '/about',
+    guard: GuestGuard,
+    component: lazy(() => import('../components/About')),
+    id: 'id_UniqX2',
+  },
 ]
 
 export default routesConfig

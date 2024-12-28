@@ -13,7 +13,7 @@ const GuestNav = () => {
         <Link to="/">
           <Flex align="center">
             <Box h={20}>
-              <Image src="https://svgshare.com/i/Gts.svg" h={{ base: 12, md: 20 }} mt={{ base: 4, md: 0 }} />
+              <Image src="/images/motherland.svg" h={{ base: 12, md: 20 }} mt={{ base: 4, md: 0 }} />
             </Box>
           </Flex>
         </Link>

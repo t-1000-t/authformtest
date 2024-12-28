@@ -10,6 +10,9 @@ const GuestFooter = () => {
         <Text _hover={{ textDecoration: 'underline' }}>
           <Link to={{ pathname: '/' }}>Home</Link>
         </Text>
+        <Text _hover={{ textDecoration: 'underline' }}>
+          <Link to={{ pathname: '/about' }}>About</Link>
+        </Text>
       </Stack>
     </Container>
   )
