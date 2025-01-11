@@ -28,6 +28,14 @@ const routesConfig = [
     component: lazy(() => import('../components/About')),
     id: 'id_UniqX2',
   },
+  {
+    exact: true,
+    layout: GuestLayout,
+    path: '/venera',
+    guard: GuestGuard,
+    component: lazy(() => import('../components/Venera')),
+    id: 'id_UniqX3',
+  },
 ]
 
 export default routesConfig
