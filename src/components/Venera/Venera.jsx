@@ -34,7 +34,7 @@ const Venera = () => {
     <div>
       <Flex wrap="wrap" justifyContent="center" gap="4">
         <Text p={3} color="blue.700">
-          Data Array new
+          Data Array new 1
         </Text>
         <Text p={3} color="blue.700">
           Data Array new 2
