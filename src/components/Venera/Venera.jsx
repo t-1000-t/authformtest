@@ -32,10 +32,10 @@ const Venera = () => {
 
   return (
     <div>
-      <Text p={3} color="yellow.500">
-        Data Array new text ......
-      </Text>
       <Flex wrap="wrap" justifyContent="center" gap="4">
+        <Text p={3} color="blue.700">
+          Data Array new
+        </Text>
         {data.map((item) => (
           <Card maxW="sm" key={item.id}>
             <CardBody>
