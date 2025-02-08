@@ -40,7 +40,7 @@ const Venera = () => {
           Data Array new 2
         </Text>
         <Text p={3} color="blue.700">
-          Data Array new 2
+          Data Array new 3
         </Text>
         {data.map((item) => (
           <Card maxW="sm" key={item.id}>
