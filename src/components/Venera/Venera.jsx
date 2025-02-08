@@ -33,7 +33,7 @@ const Venera = () => {
   return (
     <div>
       <Text p={3} color="yellow.500">
-        Data Array
+        Data Array new text ......
       </Text>
       <Flex wrap="wrap" justifyContent="center" gap="4">
         {data.map((item) => (
