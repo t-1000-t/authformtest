@@ -37,6 +37,12 @@ const Venera = () => {
           Data Array new 111
         </Text>
         <Text p={3} color="blue.700">
+          Data Array new 111
+        </Text>
+        <Text p={3} color="blue.700">
+          Data Array new 111
+        </Text>
+        <Text p={3} color="blue.700">
           Data Array new 222
         </Text>
         {data.map((item) => (
